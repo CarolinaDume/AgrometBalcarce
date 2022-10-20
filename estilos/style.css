@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Jomolhari', serif;
+    /*background-color: #4A678C;*/
+background-color: #A2A8C2;
+   /* background-color:#809BBF;*/
+    /*background-color:#D8E6F2;
+    background-color:#1A2601;
+    background-color:#324001;
+    background-color:#627326;*/
+}
+
+
+header {
+    background-image: url("https://images.pexels.com/photos/391831/pexels-photo-391831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: contain;*/
+	background-size: cover;
+    padding: 30px;
+    margin: 0;
+    width: 100vw;
+    /*float: left;*/
+    /*max-width: 100%;*/
+    /*border bottom: 2px solid #022B3A;*/
+    position: sticky;
+    opacity: 0.9;
+}
+.logo {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo img{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+}
+
+/*.logo .titulo, .subtitulo {
+    text-align: center;*/
+    /*color: #2A9D8F;*/
+   /* color:#4A678C;
+    background-color: transparent;*/
+   /* width: 30%;*/
+    /*height: auto;
+    font-family: 'Truculenta', sans-serif;
+    padding: 0;
+}
+
+.logo .titulo{
+    font-size: 4.5rem;
+    
+
+}
+
+header .subtitulo{
+    font-size: 2.25rem;
+   
+}*/
+
+header nav{
+    text-align: center;
+    padding: 0px; 
+    background-color: transparent;
+    
+}
+
+#nav a{
+    margin-right: 15px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: violet;
+}
+
+#nav a:link {
+    color: #F0F3BD;
+}
+
+#nav a:visited {
+    color:#DFE9F2;
+}
+
+/*ver si queda*/
+.body {
+    padding: 0px;
+    margin: 0;
+}
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*estilos main*/
+ .contenido-principal{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    margin: 20px;
+}
+ .contenido-principal article{
+    width: 100%;
+    padding: 10px;
+}
+.contenido-principal article h2{
+    border-top: 2px solid #022B3A;
+    margin-top: 5px;
+    background-color: #6E7C97;
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    padding-left: 5px;
+    display: block;
+    font-weight: bold;
+}
+/*ver como acomodar contenedor de las imagenes*/
+.contenido-principal .container-prono .imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img:hover {
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+}
+
+.contenido-principal .container-prono .img{
+    border: 30px;
+    margin-right: 10px;
+}
+.equipos{
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px;
+}
+.contenido-principal .container-prono iframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenido-principal .container-prono .nosotras {
+    text-align: center;
+}
+
+.contenido-principal .container-cult h3{
+    font-size: 18px;
+}
+.contenido-principal article p{
+    text-align: justify;
+    font-size: 16px;
+}
+.contenido-principal .info {
+    text-align: right;
+}
+.contenido-principal .info p{
+    font-size: 14px;
+}
+
+footer #contactos{
+    text-align: center;
+    padding:10px;
+    margin-right:7px;
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #111111;
+}
+
+.container_tarjeta {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    transition: 0.2s;
+    display: block;
+    text-align: center;
+    transition: width 2s;
+}
+
+.tarjeta:hover {
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    width: 300px;
+}
+
+.tarjeta .imagen {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tarjeta h4 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h4 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.tarjeta p {
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 5px;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.tarjeta_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta_footer button {
+    width: 150px;
+    color: var(--brand-color);
+    border: 2px solid var(--brand-color);
+    border-radius: 15px;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.tarjeta_footer a {
+    color: #022B3A;
+
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: #022B3A;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #F0F3BD;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

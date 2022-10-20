@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos_graf</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/estilosjson.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomolhari&family=Kirang+Haerang&family=Truculenta:opsz@12..72&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/61c7e96b2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <script src="./java/encabezado.js"></script>
+    </header>
+    <main class="container-main">
+        <section class="contenido-principal col-8 col-s-12">
+            <article class="container-prono">
+                <div>
+                    <h2>Precipitaciones diarias</h2>
+                    <iframe src="./pp.html" height="300" width="840"  title="pp"></iframe>
+                </div>
+                <br>
+                <div>
+                    <h2>Temperatura máxima</h2>
+                    <iframe src="./tem_max.html" height="300" width="840" title="temp_max"></iframe>
+                </div>
+                <br>
+                <div>
+                    <h2>Temperatura mínima</h2>
+                    <iframe src="./tem_min.html" height="300" width="840" title="temp_min"></iframe>
+                </div>
+            </article>
+        </section>
+
+        <aside>
+            <div class="clima">
+                <div class="tutiempo" id="WidgetTutiempo"></div>
+            </div>
+        </aside>
+    </main>
+    
+    <footer>
+        <script src="./java/footer.js"></script>
+    </footer>
+        
+        <script src="./java/tutiempo.js"></script>
+</body>
+</html>

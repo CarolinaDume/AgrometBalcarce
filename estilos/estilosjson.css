@@ -1,0 +1,69 @@
+#WidgetTutiempo{
+    all:initial;
+    *all:unset;
+}
+#WidgetTutiempo{
+    font-family:sans-serif,Arial,Helvetica;
+    font-size:14px;
+    float: right;
+    background-color:transparent;
+    margin: 0px auto;
+}
+#WidgetTutiempo p{
+    margin:0;
+    padding:5px;
+    padding-left:20;
+    padding-right:0;
+    background-color: transparent;
+}
+#WidgetTutiempo .header{
+    clear:both;
+    float:none;
+    background-color: transparent;
+}
+#WidgetTutiempo .header h2{
+    margin:0;
+    margin-top:10px;
+    background-color: transparent;
+}
+#WidgetTutiempo .header p{
+    margin:0;
+}
+#WidgetTutiempo .date{
+    margin:0;
+    padding-top:15px;
+    padding-bottom:5px;
+    clear:both;
+    float:right;
+    background-color:transparent;
+}
+#WidgetTutiempo .daydata{
+    clear:both;
+    float:none;
+    background-color: transparent;
+}
+#WidgetTutiempo .it{
+    line-height:25px;
+     float:center;
+      margin-right:20px;
+      height:50px;
+      white-space:nowrap;
+      background-color: transparent;
+    }
+#WidgetTutiempo .it img{
+    float:left;
+    margin-right:10px;
+    background-color: transparent;
+}
+
+.clima {
+    text-align:center;
+    padding: 0 20px; 
+    background-color:#6E7C97;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width: 400px;
+    margin-top: 30px;
+}
