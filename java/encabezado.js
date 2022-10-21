@@ -1,8 +1,7 @@
 encabezado=`
 <div class="logo">
-<img src="./Imagenes/89ff4f4b61ee4337b62c945ad4abf9e0-removebg-preview.png" alt="">
+<img src="./Imagenes/logo.png" alt="">
 </div>
-</br>
 <nav id="nav">
     <a class="link" href="./index.html">Inicio</a>
     <a class="link" href="./nosotras.html">Nosotras</a>

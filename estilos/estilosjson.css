@@ -4,7 +4,7 @@
 }
 #WidgetTutiempo{
     font-family:sans-serif,Arial,Helvetica;
-    font-size:14px;
+    font-size: 0.8rem;
     float: right;
     background-color:transparent;
     margin: 0px auto;
@@ -30,6 +30,7 @@
     margin:0;
 }
 #WidgetTutiempo .date{
+    font-size: 1rem;
     margin:0;
     padding-top:15px;
     padding-bottom:5px;
@@ -38,18 +39,24 @@
     background-color:transparent;
 }
 #WidgetTutiempo .daydata{
+    font-size: 0.8rem;
     clear:both;
     float:none;
     background-color: transparent;
 }
+
+
+
 #WidgetTutiempo .it{
+    font-size: 0.8rem;
     line-height:25px;
-     float:center;
-      margin-right:20px;
-      height:50px;
-      white-space:nowrap;
-      background-color: transparent;
+    float:center;
+    margin-right:20px;
+    height:50px;
+    white-space:nowrap;
+    background-color: transparent;
     }
+
 #WidgetTutiempo .it img{
     float:left;
     margin-right:10px;
@@ -66,4 +73,28 @@
     float: right;
     width: 400px;
     margin-top: 30px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    #WidgetTutiempo .daydata {
+        display: flex;
+        font-size: 0.6rem;
+        display: table-cell;
+    }
+    .clima {
+        display: table-cell;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #WidgetTutiempo .oc{
+        font-size: 0.8rem;
+        line-height: 120px;
+        float: center;
+        vertical-align: bottom;
+        margin-right:20px;
+        height:30px;
+        white-space:nowrap;
+        background-color: transparent;
+        }
 }
