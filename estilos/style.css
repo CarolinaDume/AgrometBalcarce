@@ -161,31 +161,31 @@ header nav{
     max-width: 100%;
 }
 
-.footer #logo {
+.footer .logo {
     float: left;
 }
 
-.footer #logo img {
+.footer .logo img {
     left: 2rem;
     width: 10rem;
     height: 10rem;
 }
 
-.footer #copy{
+.footer .copy{
     float: center;
     text-align: center;
     width: 100%;
     padding-top: 40px;
 }
 
-.footer #contactos{
+.footer .contactos{
     float: right;
     text-align: center;
     width: 100%;
     padding-top: 40px;
 }
 
-.footer #contactos a{
+.footer .contactos a{
     text-align: center;
 }
 
