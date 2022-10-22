@@ -1,5 +1,5 @@
 footer=`
-<div class="footer">
+<div class="footer col-s-12">
     <div class="logo col-4 col-s-6">
         <img src="./Imagenes/logo.png" alt="">
     </div>

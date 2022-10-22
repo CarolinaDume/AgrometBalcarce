@@ -302,6 +302,9 @@ h4 {
     .contenido-principal .container-prono #datos {
         width: 100%;
     }
+    .footer{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
