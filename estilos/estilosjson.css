@@ -112,9 +112,7 @@
     }
     #WidgetTutiempo .oc{
         font-size: 0.8rem;
-        /*line-height: 70px;*/
         float: left;
-        /*vertical-align: bottom;*/
         margin-right: 15px;
         height:30px;
         white-space:nowrap;
