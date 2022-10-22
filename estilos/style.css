@@ -7,7 +7,6 @@
     background-color: #A2A8C2;
 }
 
-
 header {
     background-image: url("https://images.pexels.com/photos/391831/pexels-photo-391831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center center;
@@ -60,13 +59,19 @@ header nav{
 }
 
 #nav a:visited {
-    color:#022B3A;
+    color: #6E7C97;
 }
 
 .body {
     padding: 0px;
     margin: 0;
 }
+
+.slide .fotos {
+    width: 100%;
+    height: auto;
+}
+
 .container-main{
     display: flex;
     flex-wrap: wrap;
@@ -107,16 +112,17 @@ header nav{
     justify-content: center;
 }
 
-.img:hover {
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
-    width: 50%;
-    height: 50%;
-}
-
 .contenido-principal .container-prono .img{
     border: 30px;
     margin-right: 10px;
     border-radius: 5px;
+    transition: width 2s;
+}
+
+.img:hover {
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    width: 50%;
+    height: 50%;
 }
 
 .equipos{
@@ -136,12 +142,13 @@ header nav{
 }
 
 .contenido-principal .container-prono .nosotras {
-    text-align: justify;
+    text-align: center;
 }
 
 .img_nos{
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
     border-radius: 70px;
+    
 }
 
 .img_nos:hover{
@@ -173,56 +180,12 @@ header nav{
     font-size: 14px;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    columns: 3;
-    column-gap: 20%;
-    border-top: 1px solid #022B3A;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 100%;
-    padding-top: 40px;
-    max-width: 1400px;
-}
-
-.footer .logo {
-    float: left;
-}
-
-.footer .logo img {
-    left: 2rem;
-    width: 10rem;
-    height: 10rem;
-}
-
-.footer .copy{
-    float: center;
-    text-align: center;
-    width: 100%;
-    padding-top: 40px;
-}
-
-.footer .contactos{
-    float: right;
-    text-align: center;
-    width: 100%;
-    padding-top: 40px;
-}
-
-.footer .contactos a{
-    text-align: center;
-}
-
 .container_tarjeta {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
-
 
 .tarjeta{
     width: 200px;
@@ -277,6 +240,7 @@ h4 {
     justify-content: center;
     align-items: center;
 }
+
 .tarjeta_footer button {
     width: 150px;
     color: var(--brand-color);
@@ -293,6 +257,48 @@ h4 {
     color: #022B3A;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    columns: 3;
+    column-gap: 20%;
+    border-top: 1px solid #022B3A;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    max-width: 1400px;
+}
+
+.footer .logo {
+    float: left;
+}
+
+.footer .logo img {
+    left: 2rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.footer .copy{
+    float: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.footer .contactos{
+    float: right;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.footer .contactos a{
+    text-align: center;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
