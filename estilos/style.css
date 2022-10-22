@@ -4,13 +4,7 @@
     padding: 0;
     border: 0;
     font-family: 'Jomolhari', serif;
-    /*background-color: #4A678C;*/
-background-color: #A2A8C2;
-   /* background-color:#809BBF;*/
-    /*background-color:#D8E6F2;
-    background-color:#1A2601;
-    background-color:#324001;
-    background-color:#627326;*/
+    background-color: #A2A8C2;
 }
 
 
@@ -18,14 +12,11 @@ header {
     background-image: url("https://images.pexels.com/photos/391831/pexels-photo-391831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-size: contain;*/
 	background-size: cover;
     padding: 30px;
+    padding-bottom: 5px;
     margin: 0;
     width: 100vw;
-    /*float: left;*/
-    /*max-width: 100%;*/
-    /*border bottom: 2px solid #022B3A;*/
     position: sticky;
     opacity: 0.9;
 }
@@ -41,28 +32,6 @@ header {
     width: 300px;
     height: 300px;
 }
-
-/*.logo .titulo, .subtitulo {
-    text-align: center;*/
-    /*color: #2A9D8F;*/
-   /* color:#4A678C;
-    background-color: transparent;*/
-   /* width: 30%;*/
-    /*height: auto;
-    font-family: 'Truculenta', sans-serif;
-    padding: 0;
-}
-
-.logo .titulo{
-    font-size: 4.5rem;
-    
-
-}
-
-header .subtitulo{
-    font-size: 2.25rem;
-   
-}*/
 
 header nav{
     text-align: center;
@@ -80,7 +49,9 @@ header nav{
 }
 
 #nav a:hover {
-    background-color: violet;
+    background-color: #022B3A;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 #nav a:link {
@@ -91,7 +62,6 @@ header nav{
     color:#DFE9F2;
 }
 
-/*ver si queda*/
 .body {
     padding: 0px;
     margin: 0;
@@ -103,17 +73,19 @@ header nav{
     margin: 0;
     border: 0;
 }
-/*estilos main*/
- .contenido-principal{
+
+.contenido-principal{
     float: left;
     width: 60%;
     padding: 0 20px;
     margin: 20px;
 }
- .contenido-principal article{
+
+.contenido-principal article{
     width: 100%;
     padding: 10px;
 }
+
 .contenido-principal article h2{
     border-top: 2px solid #022B3A;
     margin-top: 5px;
@@ -125,7 +97,7 @@ header nav{
     display: block;
     font-weight: bold;
 }
-/*ver como acomodar contenedor de las imagenes*/
+
 .contenido-principal .container-prono .imagen{
     display: flex;
     flex-wrap: wrap;
@@ -134,27 +106,58 @@ header nav{
 
 .img:hover {
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    width: 50%;
+    height: 50%;
 }
 
 .contenido-principal .container-prono .img{
     border: 30px;
     margin-right: 10px;
+    border-radius: 5px;
 }
+
 .equipos{
     width: 100%;
     padding: 0 20px;
     margin: 20px;
 }
+
 .contenido-principal .container-prono iframe{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.contenido-principal .container-prono .nosotras {
+.contenido-principal .container-prono #datos-meteo {
     text-align: center;
 }
 
+.contenido-principal .container-prono .nosotras {
+    text-align: justify;
+}
+
+.contenido-principal .container-prono .img_nos{
+    transition: 0.4s;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    border-radius: 5px;
+}
+
+.img_nos:hover {
+    width: 100%;
+    height: 100%;
+}
+
+.contenido-principal .container-prono #nino{
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenido-principal .container-prono #datos-meteo{
+    font-size: 1.5rem;
+}
+.contenido-principal .container-prono #datos h2{
+    font-size: 1rem;
+}
 .contenido-principal .container-cult h3{
     font-size: 18px;
 }
@@ -169,14 +172,44 @@ header nav{
     font-size: 14px;
 }
 
-footer #contactos{
-    text-align: center;
-    padding:10px;
-    margin-right:7px;
-    padding-top: 15px;
-    display: block;
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
     width: 100%;
+    columns: 3;
+    column-gap: 20%;
     border-top: 1px solid #111111;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.footer .logo {
+    float: left;
+}
+
+.footer .logo img {
+    left: 2rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.footer .copy{
+    float: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.footer .contactos{
+    float: right;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.footer .contactos a{
+    text-align: center;
 }
 
 .container_tarjeta {
@@ -185,6 +218,7 @@ footer #contactos{
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+
 
 .tarjeta{
     width: 200px;
@@ -253,39 +287,24 @@ h4 {
 
 .tarjeta_footer a {
     color: #022B3A;
-
-}
-
-button {
-    appearance: auto;
-    writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: #022B3A;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: pointer;
-    box-sizing: border-box;
-    background-color: #F0F3BD;
-    margin: 0em;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
 }
 
 
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+}
 
+@media screen and (min-width: 768px) {
+    .contenido-principal {
+        width: 100%;
+    }
+    .contenido-principal .container-prono #datos {
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -303,6 +322,7 @@ button {
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 }
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}

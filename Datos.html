@@ -19,25 +19,28 @@
     <main class="container-main">
         <section class="contenido-principal col-8 col-s-12">
             <article class="container-prono">
-                <div>
+                <h4 id="datos-meteo">Información actualizada de las principales variables meteorológicas.</h4>
+                    <h5>Datos provenientes de la Estación Meteorológica Balcarce, 1963-2022</h5>
+                    <h6>Moviendo el cursor puede elegir el periodo a consultar.</h6>
+                <div id="datos">
                     <h2>Precipitaciones diarias</h2>
-                    <iframe src="./pp.html" height="300" width="840"  title="pp"></iframe>
+                    <iframe src="./pp.html" height="300" width="100%"  title="pp"></iframe>
                 </div>
                 <br>
-                <div>
+                <div id="datos">
                     <h2>Temperatura máxima</h2>
-                    <iframe src="./tem_max.html" height="300" width="840" title="temp_max"></iframe>
+                    <iframe src="./tem_max.html" height="300" width="100%" title="temp_max"></iframe>
                 </div>
                 <br>
-                <div>
+                <div id="datos">
                     <h2>Temperatura mínima</h2>
-                    <iframe src="./tem_min.html" height="300" width="840" title="temp_min"></iframe>
+                    <iframe src="./tem_min.html" height="300" width="100%" title="temp_min"></iframe>
                 </div>
             </article>
         </section>
 
         <aside>
-            <div class="clima">
+            <div class="clima col-4 col-m-12 col-s-12">
                 <div class="tutiempo" id="WidgetTutiempo"></div>
             </div>
         </aside>
