@@ -71,28 +71,57 @@
     width: 400px;
     margin-top: 30px;
     border-radius: 5px;
-    max-width: 100%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 992px) {
+    .aside {
+        display: flex;
+        flex-wrap: wrap;
+        float: center;
+        width: 100%;
+        padding: 0 20px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #WidgetTutiempo {
+        display: table-cell;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        float: none;
+    }
+
     #WidgetTutiempo .daydata {
         display: flex;
         font-size: 0.6rem;
         display: table-cell;
+        width: 100%;
+        height: 100%;
     }
     .clima {
         display: table-cell;
         width: 100%;
         padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
+    #WidgetTutiempo .date {
+        display: flex;
+        font-size: 0.6rem;
+        display: table-cell;
+        width: 100%;
+        height: 100%;
     }
     #WidgetTutiempo .oc{
         font-size: 0.8rem;
-        line-height: 120px;
-        float: center;
-        vertical-align: bottom;
-        margin-right: 50px;
+        /*line-height: 70px;*/
+        float: left;
+        /*vertical-align: bottom;*/
+        margin-right: 15px;
         height:30px;
         white-space:nowrap;
         background-color: transparent;
+        padding-top: 0px;
         }
 }
