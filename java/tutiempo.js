@@ -4,7 +4,6 @@
 function DrawWeatherTutiempo(data){
     var htmld="",htmlh="",dhcach="",meses = new Array('-','Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
     htmld += '<div class="header"><h2>El tiempo en '+data.locality.name+'</h2><p>Pronóstico 7 días | El tiempo por Tutiempo.net</p></div>';
-        
     for(var k in data){
         if(k.indexOf("day")>-1){
             var res = data[k].date.split("-");
