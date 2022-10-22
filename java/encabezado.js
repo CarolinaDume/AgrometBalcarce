@@ -10,7 +10,7 @@ encabezado=`
     <a class="link" href="./Mapas.html">Mapas</a>
     <a class="link" href="./equipos2.html">Equipos</a>
     <a class="link" href="./formulario.html">Suscripción</a>
-    <a class="link" href="#contactos">Contacto</a>
+    <a class="link" href="./contactos">Contacto</a>
 </nav>
 `
 document.write(encabezado)

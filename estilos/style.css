@@ -104,10 +104,6 @@ header nav{
     justify-content: center;
 }
 
-.contenido-principal .container-prono .img{
-    transition: 0.2s;
-}
-
 .img:hover {
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
     width: 50%;
