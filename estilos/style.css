@@ -261,14 +261,14 @@ h4 {
     display: flex;
     flex-direction: row;
     columns: 3;
-    column-gap: 20%;
+    column-gap: 10%;
     border-top: 1px solid #022B3A;
     bottom: 0;
     left: 0;
     right: 0;
     height: auto;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
     max-width: 1400px;
 }
 
@@ -310,9 +310,6 @@ h4 {
         width: 100%;
     }
     .contenido-principal .container-prono #datos {
-        width: 100%;
-    }
-    .footer{
         width: 100%;
     }
 }
